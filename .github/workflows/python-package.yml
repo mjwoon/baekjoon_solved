@@ -30,8 +30,8 @@ jobs:
         python update.py
     - name: Commit changes
       run: |
-        git config --global user.name mjwoon
-        git config --global user.email jwmoon@hanyang.ac.kr
+        git config --global user.name 'mjwoon'
+        git config --global user.email 'jwmoon@hanyang.ac.kr'
         git add -A
         git commit -am "auto update README.md"
     - name: Push changes
